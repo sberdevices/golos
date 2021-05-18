@@ -30,9 +30,9 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 
 ### **Audio files in opus format**
 
-| Archive          | Size       |  Link           |
-|------------------|------------|-----------------|
-| golos_opus.tar   | 20.5 GB    | https://  |
+| Archive          | Size       |  Link               |
+|------------------|------------|---------------------|
+| golos_opus.tar   | 20.5 GB    | https://sc.link/JpD |
 
 ---
 
@@ -41,7 +41,7 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 | Archives          | Size       |  Links          |
 |-------------------|------------|-----------------|
 | train_farfield.tar| 15.4 GB    | https://  |
-| train_crowd0.tar  | 11 GB      | https://  |
+| train_crowd0.tar  | 11 GB      | https://sc.link/Lrg  |
 | train_crowd1.tar  | 14 GB      | https://  |
 | train_crowd2.tar  | 13.2 GB    | https://  |
 | train_crowd3.tar  | 11.6 GB    | https://  |
@@ -51,7 +51,7 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 | train_crowd7.tar  | 12.7 GB    | https://  |
 | train_crowd8.tar  | 12.2 GB    | https://  |
 | train_crowd9.tar  | 8.08 GB    | https://  |
-| test.tar          | 1.3 GB     | https://  |
+| test.tar          | 1.3 GB     | https://sc.link/Kqr  |
 
 ---
 
