@@ -11,6 +11,7 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
   - [Audio files in opus format](https://github.com/sberdevices/golos/#audio-files-in-opus-format)
   - [Audio files in wav format](https://github.com/sberdevices/golos/#audio-files-in-wav-format)
   - [Acoustic and language models](https://github.com/sberdevices/golos/#acoustic-and-language-models)
+- [Evaluation](https://github.com/sberdevices/golos/#evaluation)
 - [License](https://github.com/sberdevices/golos/#license)
 - [Contacts](https://github.com/sberdevices/golos/#contacts)
 
@@ -56,17 +57,34 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 
 ### **Acoustic and language models**
 
-Acoustic model QuartzNet15x5
+Acoustic model built using [QuartzNet15x5](https://arxiv.org/pdf/1910.10261.pdf) architecture and trained using [NeMo toolkit](https://github.com/NVIDIA/NeMo/tree/r1.0.0b4)
 
-Three n-gram language models (KenLM)
-- Built on CommonCrawl dataset
-- Built on Golos dataset
-- Built on CommonCrawl and Golos datasets together (50/50)
+
+Three n-gram language models created using [KenLM Language Model Toolkit](https://kheafield.com/code/kenlm)
+
+* LM built on [Common Crawl](https://commoncrawl.org) Russian dataset
+* LM built on [Golos](https://github.com/sberdevices/golos) train set
+* LM built on [Common Crawl](https://commoncrawl.org) and [Golos](https://github.com/sberdevices/golos) datasets together (50/50)
 
 | Archives                 | Size       |  Links          |
 |--------------------------|------------|-----------------|
 | QuartzNet15x5_golos.nemo | 68 MB      | https://  |
 | KenLMs.tar               | 4.8 GB     | https://  |
+
+## **Evaluation**
+
+Percent of Word Error Rate for different test sets
+
+
+| Decoder \ Test set    | Crowd test  | Farfield test    | MCV<sup>1</sup> dev | MCV<sup>1</sup> test |
+|-------------------------------------|-----------|----------|-----------|----------|
+| Greedy decoder                      | 4.389 %   | 14.949 % | 9.314 %   | 11.278 % |
+| Beam Search with Common Crawl LM    | 4.709 %   | 12.503 % | 6.341 %   | 7.976 % |
+| Beam Search with Golos train set LM | 3.548 %   | 12.384 % |  -        | -       |
+| Beam Search with Common Crawl and Golos LM | 3.318 %   | 11.488 % | 6.4 %     | 8.06 %   |
+
+
+<sup>1</sup> [Common Voice](https://commonvoice.mozilla.org) - Mozilla's initiative to help teach machines how real people speak.
 
 ## **License**
 
