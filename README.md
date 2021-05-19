@@ -28,6 +28,8 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 
 ## **Downloads**
 
+[MD5 Checksums](https://github.com/sberdevices/golos/blob/master/md5sum.txt)
+
 ### **Audio files in opus format**
 
 | Archive          | Size       |  Link               |

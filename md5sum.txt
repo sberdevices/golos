@@ -1,0 +1,15 @@
+3d782afc1a17755e2e1bd93baea1e35a  golos_opus.tar
+b1d7f629244be4c40aff7cc369c14dbb  train_farfield.tar
+72a26ae179252a5e007e62fc2c39020a  train_crowd0.tar
+3cdd1e4ad142cad4a59edaed3f4f8ebb  train_crowd1.tar
+c9e4e036c554ece9bee07c9d3fba6da0  train_crowd2.tar
+8ae396403389ad49e19d4ac1b3a20fbe  train_crowd3.tar
+9de5603c946d67f7a8ea24b847b65585  train_crowd4.tar
+e759db5c5c6607d6502933f4fb1b129a  train_crowd5.tar
+088a529d8007d7ad0c2806853251398a  train_crowd6.tar
+69dc6e336953ab2faf0cf874a827b4b6  train_crowd7.tar
+c0f0fca0f776cb1276fb069a192aa2b0  train_crowd8.tar
+f72ee1fc311989f462be1f0eec699613  train_crowd9.tar
+4eab0c65dcdf88d111b4494032c09e75  test.tar
+5bdf7ce2ba610db4d309413ca3cb4064  QuartzNet15x5_golos.nemo
+9ca0d96e47d5e2fb6f87ebec17066108  kenlms.tar
