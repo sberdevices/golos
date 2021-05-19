@@ -38,20 +38,20 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 
 ### **Audio files in wav format**
 
-| Archives          | Size       |  Links          |
-|-------------------|------------|-----------------|
-| train_farfield.tar| 15.4 GB    | https://  |
-| train_crowd0.tar  | 11 GB      | https://sc.link/Lrg  |
-| train_crowd1.tar  | 14 GB      | https://  |
-| train_crowd2.tar  | 13.2 GB    | https://  |
-| train_crowd3.tar  | 11.6 GB    | https://  |
-| train_crowd4.tar  | 15.8 GB    | https://  |
-| train_crowd5.tar  | 13.1 GB    | https://  |
-| train_crowd6.tar  | 15.7 GB    | https://  |
-| train_crowd7.tar  | 12.7 GB    | https://  |
-| train_crowd8.tar  | 12.2 GB    | https://  |
-| train_crowd9.tar  | 8.08 GB    | https://  |
-| test.tar          | 1.3 GB     | https://sc.link/Kqr  |
+| Archives          | Size       |  Links              |
+|-------------------|------------|---------------------|
+| train_farfield.tar| 15.4 GB    | https://sc.link/1Z3 |
+| train_crowd0.tar  | 11 GB      | https://sc.link/Lrg |
+| train_crowd1.tar  | 14 GB      | https://sc.link/MvQ |
+| train_crowd2.tar  | 13.2 GB    | https://sc.link/NwL |
+| train_crowd3.tar  | 11.6 GB    | https://sc.link/Oxg |
+| train_crowd4.tar  | 15.8 GB    | https://sc.link/Pyz |
+| train_crowd5.tar  | 13.1 GB    | https://sc.link/Qz7 |
+| train_crowd6.tar  | 15.7 GB    | https://sc.link/RAL |
+| train_crowd7.tar  | 12.7 GB    | https://sc.link/VG5 |
+| train_crowd8.tar  | 12.2 GB    | https://sc.link/WJW |
+| train_crowd9.tar  | 8.08 GB    | https://sc.link/XKk |
+| test.tar          | 1.3 GB     | https://sc.link/Kqr |
 
 ---
 
@@ -68,12 +68,12 @@ Three n-gram language models created using [KenLM Language Model Toolkit](https:
 
 | Archives                 | Size       |  Links          |
 |--------------------------|------------|-----------------|
-| QuartzNet15x5_golos.nemo | 68 MB      | https://  |
-| KenLMs.tar               | 4.8 GB     | https://  |
+| QuartzNet15x5_golos.nemo | 68 MB      | https://sc.link/ZMv |
+| KenLMs.tar               | 4.8 GB     | https://sc.link/YL0  |
 
 ## **Evaluation**
 
-Percent of Word Error Rate for different test sets
+Percents of Word Error Rate for different test sets
 
 
 | Decoder \ Test set    | Crowd test  | Farfield test    | MCV<sup>1</sup> dev | MCV<sup>1</sup> test |
