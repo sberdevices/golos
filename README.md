@@ -90,7 +90,7 @@ Percents of Word Error Rate for different test sets
 
 ## **License**
 
-[Similar to CC Attribution ShareAlike](https://sberbank.ru/licenses/by-sa/3.0)
+[Similar to CC Attribution ShareAlike](https://github.com/sberdevices/golos/blob/master/license/ru.pdf)
 
 ## **Contacts**
 
