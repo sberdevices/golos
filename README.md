@@ -30,6 +30,7 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 
 [MD5 Checksums](https://github.com/sberdevices/golos/blob/master/md5sum.txt)
 
+
 ### **Audio files in opus format**
 
 | Archive          | Size       |  Link               |
@@ -72,6 +73,10 @@ Three n-gram language models created using [KenLM Language Model Toolkit](https:
 |--------------------------|------------|-----------------|
 | QuartzNet15x5_golos.nemo | 68 MB      | https://sc.link/ZMv |
 | KenLMs.tar               | 4.8 GB     | https://sc.link/YL0  |
+
+
+Golos data and models are also available in the hub of pre-trained models, datasets, and containers - DataHub ML Space. You can train the model and deploy it on the high-performance SberCloud infrastructure in [ML Space](https://sbercloud.ru/ru/aicloud/mlspace) - full-cycle machine learning development platform for DS-teams collaboration based on the Christofari Supercomputer.
+
 
 ## **Evaluation**
 
