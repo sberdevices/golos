@@ -105,5 +105,6 @@ Please create a GitHub issue!
 
 Authors (in alphabetic order):
 - Alexander Denisenko
+- Angelina Kovalenko
 - Fedor Minkin
 - Nikolay Karpov
