@@ -17,7 +17,7 @@ def read_file_list(manifest):
 
 def infer_beam_search_lm(files, asr_model, beam_search_lm):
     hyps = []
-    logits = asr_model.transcribe(files, batch_size=20, logprobs=True)
+    logits = torch.tensor(asr_model.transcribe(files, batch_size=20, logprobs=True))
     log_probs_length = torch.tensor([logit.shape[0] for logit in logits])
     logits_tensor = torch.nn.utils.rnn.pad_sequence(logits, batch_first=True)
     for j in range(logits_tensor.shape[0]):
