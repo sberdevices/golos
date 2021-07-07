@@ -2,7 +2,6 @@
 
 export CURRENT_DIR=$PWD
 
-cd ./docker
 docker build -t golos_image .
 
 

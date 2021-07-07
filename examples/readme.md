@@ -8,7 +8,7 @@ If you have properly configured NeMo environment you can run example from your e
 
 ```bash
 cd <this_repository>/examples 
-sh run_this_example_in_docker.sh 
+sh build_and_run_docker.sh 
 ```
 
 After container is started
