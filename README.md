@@ -12,6 +12,7 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
   - [Audio files in wav format](https://github.com/sberdevices/golos/#audio-files-in-wav-format)
   - [Acoustic and language models](https://github.com/sberdevices/golos/#acoustic-and-language-models)
 - [Evaluation](https://github.com/sberdevices/golos/#evaluation)
+- [Resources](https://github.com/sberdevices/golos/#resources)
 - [License](https://github.com/sberdevices/golos/#license)
 - [Contacts](https://github.com/sberdevices/golos/#contacts)
 
@@ -40,6 +41,8 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 ---
 
 ### **Audio files in wav format**
+
+Manifest files with all training transcription texts is in the train_crowd9.tar archive listed in the table:
 
 | Archives          | Size       |  Links              |
 |-------------------|------------|---------------------|
@@ -92,6 +95,12 @@ Percents of Word Error Rate for different test sets
 
 
 <sup>1</sup> [Common Voice](https://commonvoice.mozilla.org) - Mozilla's initiative to help teach machines how real people speak.
+
+##  **Resources**
+
+[[arxiv.org] Golos: Russian Dataset for Speech Research](https://arxiv.org/abs/2106.10161)
+
+[[habr.com] Golos — самый большой русскоязычный речевой датасет, размеченный вручную, теперь в открытом доступе](https://habr.com/ru/company/sberdevices/blog/559496/)
 
 ## **License**
 
