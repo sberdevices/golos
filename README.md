@@ -42,7 +42,7 @@ Also we create 3-gram KenLM language model using an open Common Crawl corpus.
 
 ### **Audio files in wav format**
 
-Manifest files with all training transcription texts is in the train_crowd9.tar archive listed in the table:
+Manifest files with all the training transcription texts are in the train_crowd9.tar archive listed in the table:
 
 | Archives          | Size       |  Links              |
 |-------------------|------------|---------------------|
