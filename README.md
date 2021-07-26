@@ -102,6 +102,8 @@ Percents of Word Error Rate for different test sets
 
 [[habr.com] Golos — самый большой русскоязычный речевой датасет, размеченный вручную, теперь в открытом доступе](https://habr.com/ru/company/sberdevices/blog/559496/)
 
+[[habr.com] Как улучшить распознавание русской речи до 3% WER с помощью открытых данных](https://habr.com/ru/company/sberdevices/blog/569082/)
+
 ## **License**
 
 [English Version](https://github.com/sberdevices/golos/blob/master/license/en_us.pdf)
